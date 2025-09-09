@@ -1,0 +1,19 @@
+# PDF Hybrid Processing Utility - Requirements
+
+# Core PDF processing
+PyMuPDF>=1.23.0
+
+# Image processing and OCR
+opencv-python>=4.8.0
+Pillow>=10.0.0
+pytesseract>=0.3.10
+
+# Data processing and analysis
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Optional: Visualization (for debugging/analysis)
+matplotlib>=3.7.0
+
+# Progress tracking (optional)
+tqdm>=4.65.0
