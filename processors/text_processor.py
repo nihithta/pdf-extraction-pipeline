@@ -11,7 +11,7 @@ import fitz
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
 
 try:
-    from layout_lm1 import PDFExtractor
+    from pdf_hybrid_utility.layout_lm1 import PDFExtractor
     TEXT_EXTRACTOR_AVAILABLE = True
 except ImportError:
     print("Warning: layout_lm1.py not found. Text-based processing may be limited.")
